@@ -1,0 +1,5 @@
+com\sat\tmf\store\entities\User.class
+com\sat\tmf\store\SupplementStoreApplication.class
+com\sat\tmf\store\entities\Address.class
+com\sat\tmf\store\controller\LoginController.class
+com\sat\tmf\store\ServletInitializer.class
