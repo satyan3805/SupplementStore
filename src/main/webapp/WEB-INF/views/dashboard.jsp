@@ -1,11 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html>
-	<head>
-	</head>
-	
-	<body>
-		Dashboard Page
-		logged in user FirstName <b>${userObj.getFirstName()}</b>
-	</body>
+
+<body>
+User Dash board page for user : <b>${loggedinUser.firstName } ${loggedinUser.lastName }</b>
+
+List Of Products: ${productList.get(0).productName} ${productList.size() }
+</body>
 </html>
